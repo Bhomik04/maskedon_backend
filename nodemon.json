@@ -1,0 +1,6 @@
+{
+  "watch": ["api", "dblayer", "algorithms"],
+  "ext": "ts,json",
+  "ignore": ["dist", "node_modules"],
+  "exec": "ts-node api/server.ts"
+}

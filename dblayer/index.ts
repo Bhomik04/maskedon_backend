@@ -1,0 +1,22 @@
+// dblayer barrel export — all query functions available from here
+export { query, getConnection, testConnection } from "./connection";
+export * from "./user-queries";
+export * from "./event-queries";
+export * from "./request-queries";
+export * from "./payment-queries";
+export * from "./financial-ops";
+export * from "./rating-queries";
+export * from "./photo-queries";
+export * from "./notification-queries";
+export * from "./friend-queries";
+export * from "./feed-queries";
+export * from "./achievement-queries";
+export * from "./block-queries";
+export * from "./push-token-queries";
+export * from "./report-queries";
+export * from "./discovery-queries";
+export * from "./bug-report-queries";
+export * from "./messaging-queries";
+export * from "./email-token-queries";
+export * from "./tier-queries";
+export * from "./verification-queries";
